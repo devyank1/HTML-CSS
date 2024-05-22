@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abra em dispositivos de vários tamanhos, ou em zooms de navegador diferentes!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/tamp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/tamm.png" type="image/png">
+       <img src="imagens/tamg.png" alt="foto grande"> 
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Aprende ai</p>
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="midia/Luz Solart.mp3" type="audio/mpeg">
+        <source src="midia/Luz Solart.ogg" type="audio/ogg">
+        <source src="midia/Luz Solart.wav" type="audio/wav">
+        
+    </audio>
+    <p>Se não carregou, infelizmente seu navegador não suporta áudios, <a href="midia/Luz Solart.mp3" target="_blank" rel="external">clique aqui</a> para download</p>
+    
+</body>
+</html>
+

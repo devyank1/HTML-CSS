@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <style>
+        body{
+            background-color: #d3d3d3;
+            color: #2e2e2e;
+    };
+   </style>
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Desafio de navegação</h1>
+    <p>Esta é a página principal, o índice do seu site. É a página cinza. A partir dela você pode acessar as outras áreas principais através dos links a seguir:</p>
+    <ul>
+        <a href="green.html" rel="next">
+            <li>Acessar a área verde</li>
+        </a>
+        <a href="yellow.html" rel="next">
+            <li>Acessar a área amarela</li>
+        </a>
+    </ul>
+   <picture>
+    <source media="(max-width:750px )" srcset="imagens/img-300px.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/img-700px.png" type="image/png">
+    <img src="imagens/img-1000px.png" alt="imagem grande">
+   </picture>
+</body>
+</html>

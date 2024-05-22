@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Bold.ttf) format("ttf")
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to left, #043259 , #0F71F2);
+}
+
+main{
+    background-color: #FFFEFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #03203ac2;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+
+h1{
+    color: #032855;
+    text-align: center;
+    text-shadow: 1px 1px 2px #01152c8e;
+}
+
+h2{
+    color: #043259;
+}
+
+p{
+    text-align: justify;
+}

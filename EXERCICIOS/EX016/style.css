@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+}
+    
+h1{
+
+}
+h2{
+
+}
+p{
+
+}
+.emote{
+    content: \26D3;
+}
+.cor{
+    color: darkgreen;
+}
+
+.lista {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .lista li::before {
+    content: "\2714"; /* Código Unicode para o símbolo de "certo" */
+    margin-right: 0.5em; /* Espaçamento entre o símbolo e o texto do item */
+  }
+  
