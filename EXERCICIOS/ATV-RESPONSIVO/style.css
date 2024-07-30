@@ -67,3 +67,20 @@ a{
 h2{
     margin-bottom: 10px;
 }
+
+i#burger{
+    background-color: rgb(54, 54, 54);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+i#burger:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
+}
